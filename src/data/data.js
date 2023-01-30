@@ -36,16 +36,16 @@ export default {
     "Scrum",
   ],
   languages: ["English - intermediate", "Ukrainian - native"],
-  profassion: "Full Stack Developer",
+  profession: "Full Stack Developer",
   description:
-    "I quickly learn new technologies and improve. On the way to being work on not only in the development of sites but also applications.",
+    "I am middle software developer at SoftServe and I every day improve my knowledge. I always use newest best practices and technologies",
   projects: [
     {
       name: "FORTRESS DASHBOARD",
       link: "https://dashboard.fortressapi.com",
       technologies: "[ React.js, Redux RTK, MUI ]",
       about:
-        "Application for those who want to lose weight by keeping a food diary and calculating the daily calorie intake.",
+        "Admin dashboard developed to support Fortress Trust - Financial infrastructure for Web3 and crypto innovators.",
     },
     {
       name: "FORTRESS APP",
@@ -97,13 +97,13 @@ export default {
   ],
   experience: [
     {
-      profassion: "Software Engineer",
+      profession: "Software Engineer",
       company: "SoftServe",
       time: "October 2021 - present",
       duties: [],
     },
     {
-      profassion: "React/React Native Developer",
+      profession: "React/React Native Developer",
       company: "Voypost",
       time: "February 2021 - October 2021",
       duties: [],

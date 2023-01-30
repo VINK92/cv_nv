@@ -8,7 +8,7 @@ const Experience = ({ data: { experience } }) => (
     {experience.map((company) => {
       return (
         <div className="companyContainer" key={company.company}>
-          <h4 className="profassion-title">{company.profassion}</h4>
+          <h4 className="profassion-title">{company.profession}</h4>
           <span className="profassion-company">{company.company}</span>
           <span className="profassion-time">
             {company.time}
@@ -20,11 +20,11 @@ const Experience = ({ data: { experience } }) => (
                 <li className="profassion-duties-item" key={dutie}>
                   {dutie}
                 </li>
-              )
+              );
             })}
           </ul>
         </div>
-      )
+      );
     })}
   </div>
 );

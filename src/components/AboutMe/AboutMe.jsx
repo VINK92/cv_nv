@@ -3,17 +3,17 @@ import PropTypes from "prop-types";
 import "../../index.css";
 
 const AboutMe = ({ data }) => {
-  const { name, surname, description, profassion } = data;
+  const { name, surname, description, profession } = data;
   return (
     <div className="info-container">
-      <h2 className="profassion">{profassion}</h2>
+      <h2 className="profassion">{profession}</h2>
       <h1 className="name">
         {name} {surname}
       </h1>
 
       <p className="description">{description}</p>
     </div>
-  )
+  );
 };
 
 AboutMe.propTypes = {
